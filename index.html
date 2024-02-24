@@ -4,29 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./assets/styles/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
     <title>startpage ⚜️</title>
   </head>
   <body class="flex absolute w-screen h-screen bg-bg-black">
-    <main class="flex items-center justify-center w-screen h-screen">
+    <main
+      class="flex flex-col items-center justify-center w-screen h-screen gap-4"
+    >
       <div class="flex border-2 border-bg-light-gray p-4 rounded-sm">
-        <div class="flex gap-x-4">
+        <div class="flex gap-x-5">
           <img
             class="w-64 object-cover shadow-md"
             src="./assets/images/banner2.jpg"
             alt="Banner."
           />
-          <div class="flex flex-col w-96 justify-evenly">
+          <div class="flex flex-col justify-evenly">
             <!-- Clock -->
             <div
-              class="text-4xl font-playfair flex justify-center"
+              class="text-4xl font-playfair flex justify-center font-medium"
               id="clock"
             ></div>
-            <div class="flex gap-3">
+            <div class="flex gap-5">
               <!-- Links -->
-              <div class="grid gap-y-1">
-                <h2 class="text-xl font-semibold font-playfair">
-                  Social
-                </h2>
+              <div class="flex flex-col justify-items-start gap-y-1">
+                <h2 class="text-xl font-semibold font-playfair">Social</h2>
                 <ul>
                   <li class="font-light grid">
                     <a href="https://www.reddit.com/">Reddit</a>
@@ -36,23 +41,42 @@
                     <a href="https://www.amazon.com.tr/">Amazon</a>
                     <a href="https://www.ultimate-guitar.com/">Guitar Tabs</a>
                     <a href="https://www.repertuarim.com/">Repertuarim</a>
+                    <a href="https://btt.community/">btt.community</a>
                   </li>
                 </ul>
               </div>
               <!-- Links -->
-              <div class="grid gap-y-1">
-                <h2 class="text-xl font-semibold font-playfair">
-                  Lesson
-                </h2>
+              <div class="flex flex-col gap-y-1">
+                <h2 class="text-xl font-semibold font-playfair">Lesson</h2>
                 <ul>
                   <li class="font-light grid">
-                    <a href="https://www.reddit.com/">Reddit</a>
-                    <a href="https://zqwqz.org/">Ziquvikuzi</a>
-                    <a href="https://www.sahibinden.com/">Sahibinden</a>
-                    <a href="https://www.hepsiburada.com/">Hepsiburada</a>
-                    <a href="https://www.amazon.com.tr/">Amazon</a>
-                    <a href="https://www.ultimate-guitar.com/">Guitar Tabs</a>
-                    <a href="https://www.repertuarim.com/">Repertuarim</a>
+                    <a href="https://ue.mku.edu.tr/">Hmkü Uzem</a>
+                    <a href="https://obs.mku.edu.tr/">Hmkü Obs</a>
+                    <a href="https://tureng.com/">Tureng</a>
+                    <a href="https://quillbot.com/">QuillBot</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Links -->
+              <div class="flex flex-col gap-y-1">
+                <h2 class="text-xl font-semibold font-playfair">Dev</h2>
+                <ul>
+                  <li class="font-light grid">
+                    <a href="https://github.com/">Github</a>
+                    <a href="https://gitlab.com/">Gitlab</a>
+                    <a href="https://roadmap.sh/">Roadmap.sh</a>
+                    <a href="https://fonts.google.com/">Google Fonts</a>
+                    <a href="https://archlinux.org/">Archlinux</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Links -->
+              <div class="flex flex-col gap-y-1">
+                <h2 class="text-xl font-semibold font-playfair">Ai</h2>
+                <ul>
+                  <li class="font-light grid">
+                    <a href="https://chat.openai.com/">ChatGPT</a>
+                    <a href="https://gemini.google.com/app">Gemini</a>
                   </li>
                 </ul>
               </div>
@@ -60,6 +84,45 @@
           </div>
         </div>
       </div>
+      <!-- Icons -->
+      <div class="flex gap-2">
+        <div
+          class="flex hover:border-2 w-10 h-10 rounded justify-center items-center transition-all hover:border-bg-blue hover:text-bg-blue"
+        >
+          <i class="devicon-archlinux-plain text-2xl"></i>
+        </div>
+        <div
+          class="flex hover:border-2 w-10 h-10 rounded justify-center items-center transition-all hover:border-bg-red hover:text-bg-red"
+        >
+          <i class="devicon-windows11-original text-2xl"></i>
+        </div>
+        <div
+          class="flex hover:border-2 w-10 h-10 rounded justify-center items-center transition-all hover:border-bg-white hover:text-bg-white"
+        >
+          <i class="devicon-linux-plain text-2xl"></i>
+        </div>
+        <div
+          class="flex hover:border-2 w-10 h-10 rounded justify-center items-center transition-all hover:border-bg-green hover:text-bg-green"
+        >
+          <i class="devicon-android-plain text-2xl"></i>
+        </div>
+        <div
+          class="flex hover:border-2 w-10 h-10 rounded justify-center items-center transition-all hover:border-bg-light-gray hover:text-bg-light-gray"
+        >
+          <i class="devicon-github-original text-2xl"></i>
+        </div>
+        <div
+          class="flex hover:border-2 w-10 h-10 rounded justify-center items-center transition-all hover:border-bg-orange hover:text-bg-orange"
+        >
+          <i class="devicon-gitlab-plain text-2xl"></i>
+        </div>
+        <div
+          class="flex hover:border-2 w-10 h-10 rounded justify-center items-center transition-all hover:border-bg-blue hover:text-bg-blue"
+        >
+          <i class="devicon-react-original text-2xl"></i>
+        </div>
+      </div>
+      <footer class="flex bottom-1 absolute text-bg-gray font-light"><p>Made By <a href="https://github.com/Oruch379">Hasan Oruc</a> 🔱</p></footer>
     </main>
     <script src="./scripts/index.js"></script>
   </body>
